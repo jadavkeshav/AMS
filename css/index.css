@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --light-bg: #f8fafc;
+    --text-dark: #1e293b;
+    --text-light: #64748b;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-dark);
+    padding-top: 76px;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.hero-section {
+    background-color: var(--light-bg);
+    padding: 4rem 0;
+}
+
+.hero-section h1 {
+    color: var(--text-dark);
+    line-height: 1.2;
+}
+
+.hero-section .lead {
+    color: var(--text-light);
+}
